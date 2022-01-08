@@ -5,14 +5,14 @@
 
 This is a repository of our research paper in Natural Language Processing lecture 2021.
 
-#Abstract
+# Abstract
 
 Machine Translation is an indispensable task in Natural Language Processing (NLP) and applied to various application around us such as Google Translation [1], DeepL[2], and Microsoft Translator[3]. In recent years, approaches using Deep Neural Networks (DNNs) has emerged and got massive attention from both academia and industry.
 In this repository, I conducted surveys about the neural machine translation system and evaluated several approaches. Especially, I focused on the translation from Japanese to English sentences. For experiments, I implemented each method from scratch and conducted extensive evaluation using 2 public available datasets. 
 
 
 
-#1. Dataset structure and how to use
+# 1. Dataset structure and how to use
 
 In our scripts, there are 4 representative approaches. 1. LSTM-based Seq2Seq 2. GRU-based Seq2Seq 3.CNN-based Seq2Seq 4.Transformer.
 
@@ -20,7 +20,7 @@ We evaluate these models with 2 public dataset: [Kyoto Lexican Dataset](https://
 To use our test/train split, please use csv file under Voc/ folder.
 
 
-#2. Setup
+# 2. Setup
 
 Create Anaconda or minconda virtual environment. We tested our system with python=3.8 and Pytorch1.10.1 with CUDA 11.3 library, and other related libaries (torchtext spacy):
 (For further information about PyTorch, see installation instructions on the PyTorch website.)
@@ -39,7 +39,7 @@ python -m spacy download en_core_web_sm
 python -m spacy download ja_core_web_sm
 ```
 
-#3. Training the model
+# 3. Training the model
 
 To train the model, run the script file below.
 ```
@@ -75,7 +75,7 @@ Table2: Quantitative result of Anki Dataset.
 
 
 
-#5. Reference
+# 5. Reference
 
 
 [1] [Google Translation (https://translate.google.co.jp/?hl=ja)](https://translate.google.co.jp/?hl=ja)
