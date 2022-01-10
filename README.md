@@ -23,7 +23,7 @@ To use our test/train split, please use csv file under Voc/ folder.
 # 2. Setup
 
 Create Anaconda or minconda virtual environment. We tested our system with python=3.8 and Pytorch1.10.1 with CUDA 11.3 library, and other related libaries (torchtext spacy):
-(For further information about PyTorch, see installation instructions on the PyTorch website.)
+For further information about PyTorch, see installation instructions on the PyTorch website.
 ```
 conda create -n nlp python=3.8
 conda activate nlp
@@ -104,4 +104,4 @@ Table2: Quantitative result of Anki Dataset.
 
 [13] [Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. In Advances in neural information processing systems (pp. 5998-6008).](https://arxiv.org/pdf/1706.03762.pdf)
 
-[14] [Github Pytorch Seq2Seq Tutorial (https://github.com/bentrevett/pytorch-seq2seq)](https://github.com/bentrevett/pytorch-seq2seq)
+[14] [Pytorch Seq2Seq Tutorial (https://github.com/bentrevett/pytorch-seq2seq)](https://github.com/bentrevett/pytorch-seq2seq)
